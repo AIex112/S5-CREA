@@ -6,5 +6,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/https://github.com/AIex112/S5-CREA/",
+  base: "/S5-CREA/"
 })
