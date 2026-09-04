@@ -5,7 +5,7 @@ const monStyle = { backgroundColor: "lightgray", padding: "20px" };
 function App() {
   return (
     <>
-      <h1>{name}'s Todos</h1>
+      <h1 className="bg-amber-900 text-white p-4"> {name}'s Todos</h1>
       <img src="https://i.imgur.com/yXOvdOSs.jpg" alt="Hedy Lamarr" />
       <ul style={monStyle}>
         <li>Invent new traffic lights {age +1 }</li>
