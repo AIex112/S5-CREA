@@ -14,10 +14,11 @@ function User({name, age}) {
 function App() {
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <Card name="Dale Houston" job="Software Engineer" image="https://testingbot.com/free-online-tools/random-avatar/50" />
+      <Card name="Jane Doe" job="Product Manager" image="https://testingbot.com/free-online-tools/random-avatar/60" />
+      <Card name="John Smith" job="Designer" image="https://testingbot.com/free-online-tools/random-avatar/70" />
+      <Card name="Alice Johnson" job="Data Scientist" image="https://testingbot.com/free-online-tools/random-avatar/80" />
+      <Card name="Bob Williams" job="Sales Associate" image="https://testingbot.com/free-online-tools/random-avatar/90" />
     </>
   );
 }
