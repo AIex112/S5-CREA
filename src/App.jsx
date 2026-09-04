@@ -1,4 +1,6 @@
 import Profile from "./components/Profile";
+import Card from "./components/card";
+
 
 function User({name, age}) {
   return (
@@ -12,9 +14,10 @@ function User({name, age}) {
 function App() {
   return (
     <>
-      <User name="Hedy Lamarr" age={101} />
-      <User name="Ada Lovelace" age={207} />
-      <User name="Grace Hopper" age={155} />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </>
   );
 }
